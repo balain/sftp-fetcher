@@ -22,15 +22,17 @@ The things you need before installing the software:
 
 * Python3
 * pysftp: SFTP client library
-* dotenv: Manages the .env file
+* python-dotenv: Manages the .env file
 * simple_chalk: Terminal output styling
 
 ### Installation
 
-To run this program:
+To run this program, clone the repo and install pre-requisites:
 
 ```bash
 $ git clone https://github.com/balain/sftp-fetcher.git
+$ cd sftp-fetcher
+$ pip install -r requirements.txt
 ```
 
 ### Configuration
@@ -82,4 +84,5 @@ Fetching 3 of 31: third.txt
 
 ## TODOs
 
-- None
+- [ ] Track total execution time
+- [ ] Calculate average transfer speed

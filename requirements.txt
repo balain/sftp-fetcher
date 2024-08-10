@@ -1,0 +1,3 @@
+python-dotenv
+simple_chalk
+pysftp
